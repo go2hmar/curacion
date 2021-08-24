@@ -1,4 +1,4 @@
-apellido;nombre;dni
-a;n1;1
-b;n2;2
-c;n3;3
+apellido,nombre,dni
+a,n1,1
+b,n2,2
+c,n3,3
