@@ -12,19 +12,18 @@ Acerca de las **características categóricas** del dataset, identificamos lo si
   3. campo CouncilArea: área geográfica donde está la propiedad:  33 valores posibles  
 
 Las características categóricas fueron codificadas con un método OneHotEncoding, utilizando como máximo los siguientes umbrales de valores frecuentes:  
-  para Suburb: un mínimo de 100 valores más frecuentes  
-  para Regionname: un mínimo de 70 valores frecuentes  
-  para CouncilArea: un mínimo de 70valores frecuentes  
+  - para Suburb: un mínimo de 100 valores más frecuentes  
+  - para Regionname: un mínimo de 70 valores frecuentes  
+  - para CouncilArea: un mínimo de 70valores frecuentes  
  
 Acerca de las **características numéricas** del dataset, encontramos que:
   1. campo Rooms: cantidad de habitaciones de la propiedad.  9 valores posibles  
   2. campo Landsize: tamaño del terreno de la propiedad:  1448 valores  
  
-Las características categóricas fueron codificadas con un método OneHotEncoding, utilizando como máximo los siguientes umbrales de valores frecuentes:
+Las características categóricas del dataset fueron codificadas con un método OneHotEncoding, utilizando como máximo los siguientes umbrales de valores frecuentes:  
 . para Rooms: un mínimo de 70 valores frecuentes  
-. para Landsize: se clasificaron los valores de este campo Landsize en rangos, de acuerdo a los siguientes rangos de valores de ese campo, y se consideraron todas las categorías    
+. para Landsize: se clasificaron los valores de este campo Landsize en rangos, de acuerdo a los siguientes rangos de valores de ese campo, y se consideraron todas las categorías, de la siguiente manera:  
 
-Valor de Landsize  
 | (desde - hasta) | Frecuencia absoluta |
 |:----------------|:--------------------|
 |     0 -   1   |     2     |
@@ -41,7 +40,7 @@ Valor de Landsize
 |  1000 - 2000  |   428     |
 |  2000 - 3000  |   103     |
 
-Todas las características numéricas fueron estandarizadas, utilizando IterativeImputer, con KNN-KNeighborsRegressor.
+Todas las características numéricas fueron estandarizadas, utilizando IterativeImputer, con KNN-KNeighborsRegressor.  
  
-Respecto de datos aumentados, se agregan las 5 primeras columnas obtenidas a través del método de PCA, aplicado sobre el conjunto de datos totalmente procesado.
+Respecto de datos aumentados, se agregan las 5 primeras columnas obtenidas a través del método de PCA, aplicado sobre el conjunto de datos totalmente procesado.  
 
