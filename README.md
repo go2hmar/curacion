@@ -11,7 +11,7 @@ Acerca de las **características categóricas** del dataset, identificamos lo si
   2. campo Regionname: región geográfica donde está la propiedad:  8 valores posibles  
   3. campo CouncilArea: área geográfica donde está la propiedad:  33 valores posibles  
 
-Las características categóricas fueron codificadas con un método OneHotEncoding, utilizando como máximo los siguientes umbrales de valores frecuentes:  
+Las características categóricas fueron *codificadas con un método OneHotEncoding*, utilizando como máximo los siguientes umbrales de valores frecuentes:  
   - para Suburb: un mínimo de 100 valores más frecuentes  
   - para Regionname: un mínimo de 70 valores frecuentes  
   - para CouncilArea: un mínimo de 70valores frecuentes  
@@ -20,9 +20,9 @@ Acerca de las **características numéricas** del dataset, encontramos que:
   1. campo Rooms: cantidad de habitaciones de la propiedad.  9 valores posibles  
   2. campo Landsize: tamaño del terreno de la propiedad:  1448 valores  
  
-Las características categóricas del dataset fueron codificadas con un método OneHotEncoding, utilizando como máximo los siguientes umbrales de valores frecuentes:  
-. para Rooms: un mínimo de 70 valores frecuentes  
-. para Landsize: se clasificaron los valores de este campo Landsize en rangos, de acuerdo a los siguientes rangos de valores de ese campo, y se consideraron todas las categorías, de la siguiente manera:  
+Las características numéricas del dataset fueron *codificadas con un método OneHotEncoding*, utilizando como máximo los siguientes umbrales de valores frecuentes:  
+  - para Rooms: un mínimo de 70 valores frecuentes  
+  - para Landsize: se clasificaron los valores de este campo Landsize en rangos, de acuerdo a los siguientes rangos de valores de ese campo, y se consideraron todas las categorías, de la siguiente manera:  
 
 | (desde - hasta) | Frecuencia absoluta |
 |:---------------:|--------------------:|
