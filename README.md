@@ -25,20 +25,20 @@ Las características categóricas del dataset fueron codificadas con un método 
 . para Landsize: se clasificaron los valores de este campo Landsize en rangos, de acuerdo a los siguientes rangos de valores de ese campo, y se consideraron todas las categorías, de la siguiente manera:  
 
 | (desde - hasta) | Frecuencia absoluta |
-|:----------------|:--------------------|
-|     0 -   1   |     2     |
-|     1 -  100  |   326     |
-|   100 -  200  |  1548     |
-|   200 -  300  |  1454     |
-|   300 -  400  |  1179     |
-|   400 -  500  |   957     |
-|   500 -  600  |  1701     |
-|   600 -  700  |  2041     |
-|   700 -  800  |  1065     |
-|   800 -  900  |   476     |
-|   900 - 1000  |   226     |
-|  1000 - 2000  |   428     |
-|  2000 - 3000  |   103     |
+|:---------------:|--------------------:|
+|     0 -   1     |     2     |
+|     1 -  100    |   326     |
+|   100 -  200    |  1548     |
+|   200 -  300    |  1454     |
+|   300 -  400    |  1179     |
+|   400 -  500    |   957     |
+|   500 -  600    |  1701     |
+|   600 -  700    |  2041     |
+|   700 -  800    |  1065     |
+|   800 -  900    |   476     |
+|   900 - 1000    |   226     |
+|  1000 - 2000    |   428     |
+|  2000 - 3000    |   103     |
 
 Todas las características numéricas fueron estandarizadas, utilizando IterativeImputer, con KNN-KNeighborsRegressor.  
  
