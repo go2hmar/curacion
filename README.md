@@ -42,5 +42,11 @@ Las características numéricas del dataset fueron *codificadas con un método O
 
 Todas las características numéricas fueron estandarizadas, utilizando IterativeImputer, con KNN-KNeighborsRegressor.  
  
-Respecto de datos aumentados, se agregan las 5 primeras columnas obtenidas a través del método de PCA, aplicado sobre el conjunto de datos totalmente procesado.  
+Respecto de datos aumentados, se agregan las 5 primeras columnas obtenidas a través del método de PCA, aplicado sobre el conjunto de datos totalmente procesado. 
+
+
+---
+Para los profesores
+Tenemos muchas dudas con estas notebooks, y con estas notas finales del Readme que, interpretamos, son las que debería recibir el cliente.  
+Cualquier feedback será bienvenido. Gracias.
 
